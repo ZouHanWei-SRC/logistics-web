@@ -7,17 +7,16 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
- * 用户登陆
+ * 用户注册
  * 
  * @author Harvey
- * 
+ *
  */
 @Controller
-public class LoginController {
+public class SignupController {
 
-	@GetMapping("/login")
-	public String login() {
-		return "login";
+	@GetMapping("/signup")
+	public String signup() {
+		return "signup";
 	}
-
 }
